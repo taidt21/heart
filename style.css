@@ -1,0 +1,61 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+/*header*/
+header .container{
+    display:flex;
+    justify-content: space-between;
+}
+header{
+    padding-top:48px;
+}
+header a{
+    display: block;
+    color:#B1BEFF;
+}
+.logo{
+    flex-basis: 25%;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    flex-basis: 75%;
+    margin: auto;
+}
+.navbar-nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.btn-header{
+    padding: 14px 24px;
+    border:1px solid 
+    #B1BEFF
+    ;
+    box-shadow: 0px 0px 48px 0px #173EFB80;
+    border-radius: 25px;
+}
+/*section 1*/
+.home{
+    background-image: url(img/Subtract\ \(1\).jpg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 850px;
+    margin-top:-103px;
+}
